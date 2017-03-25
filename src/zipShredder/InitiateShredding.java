@@ -14,11 +14,11 @@ public class InitiateShredding
 		
 		long startTime = System.nanoTime();
 		
-		String dirName = "/Users/dcallif/Documents/Client Stuff/Excel Industries/working content directory/mediaXmls/";
-		String unzipDir = "/Users/dcallif/Documents/Client Stuff/Excel Industries/media/unzip/";
-		String saveLocation = "/Users/dcallif/Documents/Client Stuff/Excel Industries/media/updated/";
+		String dirName = "/Users/dcallif/Documents/Client Stuff/Atlas Copco CR/source plzs/";
+		String unzipDir = "/Users/dcallif/Documents/Client Stuff/Atlas Copco CR/unzip/";
+		String saveLocation = "/Users/dcallif/Documents/Client Stuff/Atlas Copco CR/updated plzs/";
 		
-		new FileWorker(dirName, unzipDir, saveLocation, false);
+		new FileWorker(dirName, unzipDir, saveLocation, true);
 		
 		long endTime = System.nanoTime();
 
